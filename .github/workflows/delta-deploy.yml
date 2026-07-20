@@ -46,7 +46,7 @@ jobs:
             - name: Checkout Tooling
               uses: actions/checkout@v4
               with:
-                repository: keyloop-internal/salesforce-devops
+                repository: kl-internal/salesforce-devops
                 path: tools
                 token: ${{ secrets.DEVOPS_PAT }}
 
